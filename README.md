@@ -8,6 +8,7 @@ If yes, then they will enter `q` in uppercase or lowercase, and it automatically
 
 ### Step 2  
 Make a list of prize money so that I can iterate easily and the code looks good.  
+- `prizeAmount`
 
 ### Step 3  
 Two variables:  
