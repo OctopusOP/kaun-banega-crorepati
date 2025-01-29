@@ -11,8 +11,8 @@ Make a list of prize money so that I can iterate easily and the code looks good.
 
 ### Step 3  
 Two variables:  
-- `winamt`: To detect how much the player won during the game.  
-- `finwinamt`: To track the final winning amount as it has many stages.  
+- `winningAmount`: To detect how much the player won during the game.  
+- `finWinAmt`: To track the final winning amount as it has many stages.  
 
 ### Step 4  
 Questions and answers were the tricky part—how should I store them and iterate without using a database or local storage?  
@@ -28,9 +28,9 @@ I added a `try` statement to counter any errors in the game loop.
 
 ### Step 7  
 The questions iterated with answers in one loop using `i` as an index:  
-- `question[i][0]` → Fetches the question.  
-- `answer[i][1]` → Stores the correct answer.  
-- Options: `question[i][2], question[i][3], question[i][4], question[i][5]`.  
+- `qAns[i][0]` → Fetches the question.  
+- `qAns[i][1]` → Stores the correct answer.  
+- Options: `qAns[i][2], qAns[i][3], qAns[i][4], qAns[i][5]`.  
 
 ### Step 8  
 The `if-else` checks if the user-selected option matches the predefined correct option.  
